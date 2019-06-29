@@ -1,0 +1,188 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html{
+	font-family: 'Open Sans', sans-serif;
+	margin:0;
+	width: 100%;
+	border:solid #000 1px;
+	background-color:#fff;
+}
+
+body{
+	margin:0;
+	text-align: center;
+}
+
+#logo{
+	height:60px;
+	width:60px;
+	position:absolute;
+	top:2px;
+	left:2px;
+	padding:.25em;
+	padding-left:.5em;
+}
+
+nav{
+  height: 65px;
+  background-color:#75e2e6;
+  border-bottom:solid #048eaa 4px;
+}
+
+.link{
+	padding-top:20px;
+}
+
+nav ul{
+	margin:0;
+}
+
+nav ul li{
+	display: inline;
+	list-style: none;
+	float:right;
+	padding-right: 1.5em;
+}
+
+a{
+	text-decoration: none;
+	color:#000;
+	font-weight: bold;
+}
+
+h1{
+	margin:0;
+	font-weight: normal;
+	letter-spacing: .05em;
+	padding: 1em;
+}
+
+#park-container{
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('images/park.jpg');
+	min-height: 600px;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow:hidden;
+}
+
+#main-dog{
+	margin-bottom: 4em;
+}
+
+.dog-img{
+	width: 200px;
+	height: 200px;
+}
+
+label{
+	padding-bottom:.2em;
+}
+
+button{
+	font-family: 'Open Sans',sans-serif;
+	background-color: #75e2e6;
+}
+
+.quarter-width{
+	display: block;
+	width:30%;
+	margin: 0 auto;
+}
+
+.text-align-left{
+	text-align: left;
+}
+
+.three-em-height{
+	height: 4em;
+}
+
+.two-em-bottom-margin{
+	margin-bottom: 2em;
+}
+
+.strong{
+	font-weight: 700;
+}
+
+.semi-bold{
+	font-weight: 600;
+}
+
+.white-text{
+	color:#fff;
+}
+
+.rounded-image{
+	border-radius:50%;
+	border:solid #048eaa 4px;
+}
+
+.third-width{
+	width:33.33%;
+	float:left;
+	padding:0 3em;
+	margin-bottom: 2em;
+}
+
+.third-width button{
+	width:100%;
+	background-color: #048eaa;
+	color:#fff;
+	height: 4.5em;
+	border-radius: 3px;
+}
+
+footer{
+	clear:both;
+	background-color: #048eaa;
+	color: #fff;
+	height: 150px;
+}
+
+footer p{
+	padding-top:35px;
+}
+
+footer img{
+	padding-right: .5em;
+}
+
+@media only screen and (max-width: 600px) {
+	nav{
+		height:auto;
+	}
+
+	nav ul li{
+		float:none;
+		display: block;
+		margin: auto;
+	}
+
+	#last-link{
+		margin-bottom: 1em;
+	}
+
+	.quarter-width{
+		width:50%;
+	}
+
+	.third-width{
+		float:none;
+		width:100%;
+	}
+}
+
+@media only screen and (max-width: 850px){
+	.dog-img{
+		width:150px;
+		height: 150px;
+	}
+}

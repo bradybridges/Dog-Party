@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Site About Dogs</title>
+	<meta charset="utf-8">
+	<meta lang="en">
+	<link rel="stylesheet" type="text/css" href="styles2.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	
+  	<nav>
+    	<ul>
+    		<li><img id="logo" src="images/dog-icon.svg" alt="Cute Dog Logo"></li>
+      		<li class="link">
+      			<div class="tooltip-container">
+      				<a class="strong" href="">Facts From Dog</a>
+      				<span class="tooltip">Text of Tooltip</span>
+      			</div>
+      		</li>
+      		<li class="link">
+      			<div class="tooltip-container">
+      				<a class="strong" href="">What Is Dogs</a>
+      				<span class="tooltip">Hi!</span>
+      			</div>
+      		</li>
+      		<li class="link" id="last-link">
+      			<div class="tooltip-container">
+      				<a class="strong" href="">How To Dog</a>
+      				<span class="tooltip">Learn 2 B Dog</span>
+      			</div>
+      		</li>
+    	</ul>
+    </nav>
+	<header>
+		<section id="park-container">
+			<h1 class="white-text header-fifty-right-float" id="main-header">A Site About <strong id="change-name">Some Dogs</strong></h1>
+			<img class="rounded-image" id="main-dog" src="images/dog1-sq.jpg" alt="Happy Dog">
+			<br>
+			<label class="white-text quarter-width text-align-left two-em-bottom-margin header-fifty-right-float" for="dogName" id="input-label">Name</label>
+			<input class="quarter-width three-em-height two-em-bottom-margin header-fifty-right-float" id="name" type="text" name="dogName"/>
+			<button class="strong quarter-width three-em-height header-fifty-right-float" onclick="addName();">Name This Dog</button>
+		</section>
+	</header>
+
+	<main class="clear">
+		<div class="third-width dog-row">
+		  <h2 class="strong">How To Dog</h2>
+		  <img class="rounded-image dog-img" src="images/dog2-sq.jpg" alt="Long Tongue Doggo">
+		  <p class="semi-bold" id="how">
+		  	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et exercitationem voluptate distinctio ipsam vel? Illo hic suscipit iure illum, expedita dolorem deleniti laudantium, omnis, voluptatum repellat, minus esse inventore commodi?
+		  </p>
+
+		  <button class="dog-button" onclick="toggleHow();">How</button>
+		</div>
+
+		<div class="third-width dog-row">
+		  <h2 class="strong">What Is Dogs</h2>
+		  <img class="rounded-image dog-img" src="images/dog3-sq.jpg" alt="Bandana Pooch">
+		  <p class="semi-bold" id="what">
+		  	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et exercitationem voluptate distinctio ipsam vel? Illo hic suscipit iure illum, expedita dolorem deleniti laudantium, omnis, voluptatum repellat, minus esse inventore commodi?
+		  </p>
+
+		  <button class="dog-button" onclick="toggleWhat();">What</button>
+		</div>
+
+		<div class="third-width dog-row">
+		  <h2 class="strong">Facts From Dog</h2>
+		  <img class="rounded-image dog-img" src="images/dog4-sq.jpg" alt="Long Tongue Doggo">
+		  <p class="semi-bold" id="facts">
+		  	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et exercitationem voluptate distinctio ipsam vel? Illo hic suscipit iure illum, expedita dolorem deleniti laudantium, omnis, voluptatum repellat, minus esse inventore commodi?
+		  </p>
+
+		  <button class="dog-button" onclick="toggleFacts();">Facts</button>
+		</div>
+		</main>
+  	<footer>
+  		<p>Learn About Dogs Online</p>
+  		<img src="images/twitter.svg" alt="Twitter">
+  		<img src="images/instagram.svg" alt="Instagram">
+  		<img src="images/facebook.svg" alt="Facebook">
+  		<img src="images/linkedin.svg" alt="LinkedIn">
+  	</footer>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
