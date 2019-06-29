@@ -37,6 +37,30 @@ nav{
 	padding-top:20px;
 }
 
+.tooltip-container{
+	position: relative;
+	display: inline;
+}
+
+.tooltip{
+	visibility: hidden;
+	width: 100px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	padding: .5em;
+	border-radius:4px;
+	position:absolute;
+	top:25px;
+	left:25px;
+}
+
+.tooltip-container:hover
+.tooltip{
+	visibility: visible;
+	z-index: 1;
+}
+
 nav ul{
 	margin:0;
 }
