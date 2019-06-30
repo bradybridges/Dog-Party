@@ -86,11 +86,11 @@ h1{
 }
 
 #park-container{
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('images/park.jpg');
 	background-attachment: fixed;
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('images/park.jpg');
 	min-height: 600px;
 	overflow:hidden;
 	width: 100%;
