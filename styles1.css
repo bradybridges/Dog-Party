@@ -5,11 +5,11 @@
 }
 
 html{
+	background-color:#fff;
+	border:solid #000 1px;
 	font-family: 'Open Sans', sans-serif;
 	margin:0;
 	width: 100%;
-	border:solid #000 1px;
-	background-color:#fff;
 }
 
 body{
@@ -19,18 +19,18 @@ body{
 
 #logo{
 	height:60px;
-	width:60px;
+	left:2px;
+	padding-left:.5em;
+	padding:.25em;
 	position:absolute;
 	top:2px;
-	left:2px;
-	padding:.25em;
-	padding-left:.5em;
+	width:60px;
 }
 
 nav{
-  height: 65px;
   background-color:#75e2e6;
   border-bottom:solid #048eaa 4px;
+  height: 65px;
 }
 
 .link{
@@ -38,21 +38,21 @@ nav{
 }
 
 .tooltip-container{
-	position: relative;
 	display: inline;
+	position: relative;
 }
 
 .tooltip{
+	background-color: #000;
+	border-radius:4px;
+	color: #fff;
+	left:25px;
+	padding: .5em;
+	position:absolute;
+	text-align: center;
+	top:25px;
 	visibility: hidden;
 	width: 100px;
-	background-color: #000;
-	color: #fff;
-	text-align: center;
-	padding: .5em;
-	border-radius:4px;
-	position:absolute;
-	top:25px;
-	left:25px;
 }
 
 .tooltip-container:hover
@@ -67,33 +67,33 @@ nav ul{
 
 nav ul li{
 	display: inline;
-	list-style: none;
 	float:right;
+	list-style: none;
 	padding-right: 1.5em;
 }
 
 a{
-	text-decoration: none;
 	color:#000;
 	font-weight: bold;
+	text-decoration: none;
 }
 
 h1{
-	margin:0;
 	font-weight: normal;
 	letter-spacing: .05em;
+	margin:0;
 	padding: 1em;
 }
 
 #park-container{
-	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('images/park.jpg');
-	min-height: 600px;
-	width: 100%;
 	background-attachment: fixed;
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('images/park.jpg');
+	min-height: 600px;
 	overflow:hidden;
+	width: 100%;
 }
 
 #main-dog{
@@ -101,8 +101,8 @@ h1{
 }
 
 .dog-img{
-	width: 200px;
 	height: 200px;
+	width: 200px;
 }
 
 label{
@@ -110,14 +110,14 @@ label{
 }
 
 button{
-	font-family: 'Open Sans',sans-serif;
 	background-color: #75e2e6;
+	font-family: 'Open Sans',sans-serif;
 }
 
 .quarter-width{
 	display: block;
-	width:30%;
 	margin: 0 auto;
+	width:30%;
 }
 
 .text-align-left{
@@ -150,23 +150,23 @@ button{
 }
 
 .third-width{
-	width:33.33%;
 	float:left;
-	padding:0 3em;
 	margin-bottom: 2em;
+	padding:0 3em;
+	width:33.33%;
 }
 
 .third-width button{
-	width:100%;
 	background-color: #048eaa;
+	border-radius: 3px;
 	color:#fff;
 	height: 4.5em;
-	border-radius: 3px;
+	width:100%;
 }
 
 footer{
-	clear:both;
 	background-color: #048eaa;
+	clear:both;
 	color: #fff;
 	height: 150px;
 }
@@ -185,8 +185,8 @@ footer img{
 	}
 
 	nav ul li{
-		float:none;
 		display: block;
+		float:none;
 		margin: auto;
 	}
 
@@ -206,7 +206,7 @@ footer img{
 
 @media only screen and (max-width: 850px){
 	.dog-img{
-		width:150px;
 		height: 150px;
+		width:150px;
 	}
 }

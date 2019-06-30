@@ -236,9 +236,9 @@ footer{
 
 	.dog-p{
 		float: none;
-    width: 100%;
     margin: 2em auto;
     text-align: center;
+    width: 100%;
 	}
 
 	.dog-row{
@@ -248,14 +248,14 @@ footer{
 	.header-fourty-right-float{
 		float: none;
     display: block;
-    width: 60%;
     margin: 0 auto 2em auto;
+    width: 60%;
 	}
 
 	#main-header{
 		float: none;
-    width: 75%;
     margin: 1em auto 0 auto;
+    width: 75%;
 	}
 
 	#main-dog{
@@ -275,33 +275,33 @@ footer{
     padding-top: 1em;
 	}
 	#top-right-img{
-		position:inherit;
 		margin:0;
 		padding: 1em .5em 0 0;
+		position:inherit;
 	}
 
 	#top-left-img{
-		position:inherit;
 		margin: 0;
 		padding: 1em .5em 0 0;
+		position:inherit;
 	}
 
 	#bottom-right-img{
-		position: inherit;
 		margin:0;
 		padding: 1em .5em 0 0;
+		position: inherit;
 	}
 
 	#bottom-left-img{
-		position: inherit;
 		margin:0;
 		padding: 1em .5em 0 0;
+		position: inherit;
 	}
 
 	nav{
 		float: none;
-    width: 100%;
     height: auto;
+    width: 100%;
 	}
 
 	#logo{
