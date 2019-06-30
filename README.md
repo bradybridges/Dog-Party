@@ -20,4 +20,12 @@ Turing instuctors for the information used to build this site
 
 ## Results
 
+![Styles1 Replication](https://github.com/bradybridges/Dog-Party/blob/master/images/styles1image.png)
+
+![Styles1 Mobile](https://github.com/bradybridges/Dog-Party/blob/master/images/styles1mobile.png)
+
+![Styles2 Replication](https://github.com/bradybridges/Dog-Party/blob/master/images/styles2image.png)
+
+![styles2 Mobile](https://github.com/bradybridges/Dog-Party/blob/master/images/styles2mobile.png)
+
 
