@@ -4,6 +4,7 @@
 	<title>Site About Dogs</title>
 	<meta charset="utf-8">
 	<meta lang="en">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="styles2.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap" rel="stylesheet">
@@ -36,12 +37,12 @@
     </nav>
 	<header>
 		<section id="park-container">
-			<h1 class="white-text header-fifty-right-float" id="main-header">A Site About <strong id="change-name">Some Dogs</strong></h1>
+			<h1 class="white-text header-fourty-right-float" id="main-header">A Site About <strong id="change-name">Some Dogs</strong></h1>
 			<img class="rounded-image" id="main-dog" src="images/dog1-sq.jpg" alt="Happy Dog">
 			<br>
-			<label class="white-text quarter-width text-align-left two-em-bottom-margin header-fifty-right-float" for="dogName" id="input-label">Name</label>
-			<input class="quarter-width three-em-height two-em-bottom-margin header-fifty-right-float" id="name" type="text" name="dogName"/>
-			<button class="strong quarter-width three-em-height header-fifty-right-float" onclick="addName();">Name This Dog</button>
+			<label class="white-text quarter-width text-align-left two-em-bottom-margin header-fourty-right-float" for="dogName" id="input-label">Name</label>
+			<input class="quarter-width three-em-height two-em-bottom-margin header-fourty-right-float" id="name" type="text" name="dogName"/>
+			<button class="strong quarter-width three-em-height header-fourty-right-float" onclick="addName();">Name This Dog</button>
 		</section>
 	</header>
 
@@ -49,33 +50,34 @@
 		<div class="third-width dog-row">
 		  <h2 class="strong">How To Dog</h2>
 		  <img class="rounded-image dog-img" src="images/dog2-sq.jpg" alt="Long Tongue Doggo">
-		  <p class="semi-bold" id="how">
+		  <p class="semi-bold dog-p" id="how">
 		  	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et exercitationem voluptate distinctio ipsam vel? Illo hic suscipit iure illum, expedita dolorem deleniti laudantium, omnis, voluptatum repellat, minus esse inventore commodi?
 		  </p>
 
-		  <button class="dog-button" onclick="toggleHow();">How</button>
+		  <button class="dog-button" id="how-button" onclick="toggleHow();">How</button>
 		</div>
 
 		<div class="third-width dog-row">
 		  <h2 class="strong">What Is Dogs</h2>
 		  <img class="rounded-image dog-img" src="images/dog3-sq.jpg" alt="Bandana Pooch">
-		  <p class="semi-bold" id="what">
+		  <p class="semi-bold dog-p" id="what">
 		  	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et exercitationem voluptate distinctio ipsam vel? Illo hic suscipit iure illum, expedita dolorem deleniti laudantium, omnis, voluptatum repellat, minus esse inventore commodi?
 		  </p>
 
-		  <button class="dog-button" onclick="toggleWhat();">What</button>
+		  <button class="dog-button" id="what-button" onclick="toggleWhat();">What</button>
 		</div>
 
-		<div class="third-width dog-row">
+		<div class="third-width dog-row" id="bottom-dog">
 		  <h2 class="strong">Facts From Dog</h2>
 		  <img class="rounded-image dog-img" src="images/dog4-sq.jpg" alt="Long Tongue Doggo">
-		  <p class="semi-bold" id="facts">
+		  <p class="semi-bold dog-p" id="facts">
 		  	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et exercitationem voluptate distinctio ipsam vel? Illo hic suscipit iure illum, expedita dolorem deleniti laudantium, omnis, voluptatum repellat, minus esse inventore commodi?
 		  </p>
 
-		  <button class="dog-button" onclick="toggleFacts();">Facts</button>
+		  <button class="dog-button" id="facts-button" onclick="toggleFacts();">Facts</button>
 		</div>
-		</main>
+	</main>
+
   	<footer>
   		<p id="footer-text">Learn About Dogs Online</p>
   		<img id="top-right-img"src="images/twitter.svg" alt="Twitter">
