@@ -49,10 +49,9 @@ header button{
 
 footer{
 	background-color: #3E3544;
-	height: 150px;
+	height: 200px;
 	color: #fff;
 }
-
 
 .link{
 	padding-bottom: 2em;
@@ -152,3 +151,37 @@ footer{
 	margin: 1em 1em 2em 0;
 	height:auto;
 }
+
+#top-right-img{
+	position: absolute;
+    left: 93%;
+    margin-top: 3.5em;
+}
+
+#top-left-img{
+	position: absolute;
+    left: 88%;
+    margin-top: 3.5em;
+}
+
+#bottom-right-img{
+	position: absolute;
+    left: 93.5%;
+    margin-top: 7em;
+}
+
+#bottom-left-img{
+	position: absolute;
+    left: 88%;
+    margin-top: 7em;
+}
+
+#footer-text{
+	font-size: 1.5em;
+    font-weight: 700;
+    position: absolute;
+    left: 58%;
+    margin-top: 2em;
+}
+
+
